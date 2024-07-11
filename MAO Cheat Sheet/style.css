@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    overflow: scroll;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+header li {
+    display: inline-block;
+    line-height: 4em;
+    padding: 0 1.5em;
+}
+
+#logo {
+    position: absolute;
+    left: 10px;
+}
+
+header li a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+header li a:hover {
+    color: rgb(61, 61, 61);
+}
+
+banner {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+banner h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size:4em;
+}
+
+banner p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 2em;
+    font-size: 20px;
+    font-size:1.5em;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgb(235, 235, 235);
+}
+
+th, td {
+    border: 1px solid  rgb(0, 0, 0);;
+    padding: 10px;
+    text-align: left;
+    color:  rgb(0, 0, 0);
+    font-size: larger;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    width: 100%;
+    z-index: 100;
+}
+
+footer li {
+    display: inline-block;
+    line-height: 2em;
+    padding: 0 1.5em;
+}
+
+footer li{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+header li:hover {
+    color: rgb(61, 61, 61);
+}

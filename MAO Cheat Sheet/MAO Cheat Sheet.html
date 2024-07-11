@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MAO Cheat Sheet</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header>
+        <ul>
+            <li id="logo"><a href="">MAO</a></li>
+            <li><a href="#HTML">HTML</a></li>
+            <li><a href="#HTML-Semantic">HTML-Semantic</a></li>
+            <li><a href="#CSS">CSS</a></li>
+            <li><a href="#JS">JS</a></li>
+        </ul>
+    </header>
+    <banner>
+        <h1>Web Development Cheat Sheet</h1>
+        <p>Here you can find the most important codes and tips about HTML, CSS and JavaScript.</p>
+    </banner>
+    <main>
+        <section id="HTML">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="3">HTML Cheat Sheet</th>
+                    </tr>
+                    <tr>
+                        <th>Element</th>
+                        <th>Syntax</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>h1</td>
+                        <td>&lt;h1&gt;content&lt;/h1&gt;</td>
+                        <td>Defines the most important heading. There are six levels of headings from &lt;h1&gt; (most important) to &lt;h6&gt; (least important). Used to indicate main headings in a document.</td>
+                    </tr>
+                    <tr>
+                        <td>p</td>
+                        <td>&lt;p&gt;content&lt;/p&gt;</td>
+                        <td>Defines a paragraph. It is a block-level element and typically contains text content, including other inline elements like links or emphasized text.</td>
+                    </tr>
+                    <tr>
+                        <td>div</td>
+                        <td>&lt;div&gt;content&lt;/div&gt;</td>
+                        <td>Defines a division or section in an HTML document. It is a block-level element commonly used to group content for styling or layout purposes using CSS.</td>
+                    </tr>
+                    <tr>
+                        <td>a</td>
+                        <td>&lt;a href="url"&gt;link&lt;/a&gt;</td>
+                        <td>Defines a hyperlink, which is used to link from one page to another. The "href" attribute specifies the URL of the page the link goes to. It can also link to other resources, such as email addresses or file downloads.</td>
+                    </tr>
+                    <tr>
+                        <td>img</td>
+                        <td>&lt;img src="url" alt="description"&gt;</td>
+                        <td>Embeds an image in the document. The "src" attribute specifies the path to the image file, and the "alt" attribute provides alternative text for screen readers and if the image fails to load.</td>
+                    </tr>
+                    <tr>
+                        <td>ul</td>
+                        <td>&lt;ul&gt;&lt;li&gt;item&lt;/li&gt;&lt;/ul&gt;</td>
+                        <td>Defines an unordered (bulleted) list. The &lt;ul&gt; element contains one or more &lt;li&gt; (list item) elements.</td>
+                    </tr>
+                    <tr>
+                        <td>ol</td>
+                        <td>&lt;ol&gt;&lt;li&gt;item&lt;/li&gt;&lt;/ol&gt;</td>
+                        <td>Defines an ordered (numbered) list. The &lt;ol&gt; element contains one or more &lt;li&gt; (list item) elements.</td>
+                    </tr>
+                    <tr>
+                        <td>li</td>
+                        <td>&lt;li&gt;item&lt;/li&gt;</td>
+                        <td>Defines a list item. It is used within &lt;ul&gt; (unordered list) or &lt;ol&gt; (ordered list) elements.</td>
+                    </tr>
+                    <tr>
+                        <td>table</td>
+                        <td>&lt;table&gt;content&lt;/table&gt;</td>
+                        <td>Defines a table. It contains rows (&lt;tr&gt;), and each row contains cells (&lt;td&gt; for data cells and &lt;th&gt; for header cells).</td>
+                    </tr>
+                    <tr>
+                        <td>tr</td>
+                        <td>&lt;tr&gt;content&lt;/tr&gt;</td>
+                        <td>Defines a row in a table. It contains one or more &lt;td&gt; (data cell) or &lt;th&gt; (header cell) elements.</td>
+                    </tr>
+                    <tr>
+                        <td>td</td>
+                        <td>&lt;td&gt;content&lt;/td&gt;</td>
+                        <td>Defines a cell in a table. It is used within a &lt;tr&gt; (table row) element to contain data.</td>
+                    </tr>
+                    <tr>
+                        <td>th</td>
+                        <td>&lt;th&gt;content&lt;/th&gt;</td>
+                        <td>Defines a header cell in a table. It is used within a &lt;tr&gt; (table row) element and usually appears at the top of a column or at the start of a row. By default, header cells are bold and centered.</td>
+                    </tr>
+                    <tr>
+                        <td>form</td>
+                        <td>&lt;form&gt;content&lt;/form&gt;</td>
+                        <td>Defines an HTML form for user input. The form element can contain various input elements like text fields, checkboxes, radio buttons, submit buttons, etc. The "action" attribute specifies where to send the form data when it is submitted.</td>
+                    </tr>
+                    <tr>
+                        <td>input</td>
+                        <td>&lt;input type="text"&gt;</td>
+                        <td>Defines an input control. It is used within a form to accept user input. The "type" attribute specifies the type of input (e.g., text, password, email, etc.).</td>
+                    </tr>
+                    <tr>
+                        <td>button</td>
+                        <td>&lt;button&gt;content&lt;/button&gt;</td>
+                        <td>Defines a clickable button. It can be used within or outside a form to trigger actions defined in JavaScript or to submit form data.</td>
+                    </tr>
+                    <tr>
+                        <td>br</td>
+                        <td>&lt;br&gt;</td>
+                        <td>Inserts a single line break. It is an empty element, meaning it does not have a closing tag. It is used to start a new line of text without starting a new paragraph.</td>
+                    </tr>
+                    <tr>
+                        <td>hr</td>
+                        <td>&lt;hr&gt;</td>
+                        <td>Inserts a thematic break (horizontal rule). It is an empty element and is typically used to separate content or sections within a page.</td>
+                    </tr>
+                    <tr>
+                        <td>span</td>
+                        <td>&lt;span&gt;content&lt;/span&gt;</td>
+                        <td>Defines a section in a document. It is an inline element used to group inline elements or text for styling purposes using CSS.</td>
+                    </tr>
+                    <tr>
+                        <td>strong</td>
+                        <td>&lt;strong&gt;content&lt;/strong&gt;</td>
+                        <td>Defines important text. It renders as bold text and conveys that the enclosed text is of strong importance.</td>
+                    </tr>
+                    <tr>
+                        <td>em</td>
+                        <td>&lt;em&gt;content&lt;/em&gt;</td>
+                        <td>Defines emphasized text. It renders as italicized text and conveys emphasis on the enclosed text.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="HTML-Semantic">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="3">HTML-Semantic Cheat Sheet</th>
+                    </tr>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Syntax</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>header</td>
+                        <td>&lt;header&gt;content&lt;/header&gt;</td>
+                        <td>Defines a header section for a document or a section. Typically contains introductory content or navigational links. It can contain heading elements, logo, search form, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>nav</td>
+                        <td>&lt;nav&gt;content&lt;/nav&gt;</td>
+                        <td>Defines a section of navigation links. Used for primary navigation menus. It helps search engines and assistive technologies to understand the structure of your site.</td>
+                    </tr>
+                    <tr>
+                        <td>section</td>
+                        <td>&lt;section&gt;content&lt;/section&gt;</td>
+                        <td>Defines a section in a document. Used to group related content and typically contains a heading. Suitable for thematic grouping of content.</td>
+                    </tr>
+                    <tr>
+                        <td>article</td>
+                        <td>&lt;article&gt;content&lt;/article&gt;</td>
+                        <td>Defines an independent, self-contained piece of content. Suitable for blog posts, news articles, or other content that could stand alone.</td>
+                    </tr>
+                    <tr>
+                        <td>aside</td>
+                        <td>&lt;aside&gt;content&lt;/aside&gt;</td>
+                        <td>Defines content aside from the main content. Typically used for sidebars, pull quotes, or groups of related content.</td>
+                    </tr>
+                    <tr>
+                        <td>footer</td>
+                        <td>&lt;footer&gt;content&lt;/footer&gt;</td>
+                        <td>Defines a footer for a document or a section. Typically contains information about the author, copyright information, or links to related documents.</td>
+                    </tr>
+                    <tr>
+                        <td>main</td>
+                        <td>&lt;main&gt;content&lt;/main&gt;</td>
+                        <td>Defines the main content of a document. It should contain content that is directly related to the central topic of the document, excluding headers, footers, navigation, and sidebars.</td>
+                    </tr>
+                    <tr>
+                        <td>figure</td>
+                        <td>&lt;figure&gt;content&lt;/figure&gt;</td>
+                        <td>Defines self-contained content, such as illustrations, diagrams, photos, code listings, etc. It can contain a &lt;figcaption&gt; element to provide a caption for the content.</td>
+                    </tr>
+                    <tr>
+                        <td>figcaption</td>
+                        <td>&lt;figcaption&gt;content&lt;/figcaption&gt;</td>
+                        <td>Defines a caption for a &lt;figure&gt; element. It is used to provide a title or explanatory text for the content in the figure.</td>
+                    </tr>
+                    <tr>
+                        <td>mark</td>
+                        <td>&lt;mark&gt;content&lt;/mark&gt;</td>
+                        <td>Defines text that should be marked or highlighted. It is used to draw attention to specific text within a larger body of text.</td>
+                    </tr>
+                    <tr>
+                        <td>time</td>
+                        <td>&lt;time&gt;content&lt;/time&gt;</td>
+                        <td>Defines a specific time (or a datetime). It is used to encode dates and times in a machine-readable format, useful for adding times and dates to your document that computers can recognize and manipulate.</td>
+                    </tr>
+                    <tr>
+                        <td>address</td>
+                        <td>&lt;address&gt;content&lt;/address&gt;</td>
+                        <td>Defines contact information for the author or owner of a document or article. Typically includes physical addresses, email addresses, phone numbers, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>progress</td>
+                        <td>&lt;progress&gt;content&lt;/progress&gt;</td>
+                        <td>Represents the completion progress of a task. It is typically displayed as a progress bar.</td>
+                    </tr>
+                    <tr>
+                        <td>details</td>
+                        <td>&lt;details&gt;content&lt;/details&gt;</td>
+                        <td>Defines additional details that the user can view or hide. It is often used with the &lt;summary&gt; element, which provides a summary or label for the details.</td>
+                    </tr>
+                    <tr>
+                        <td>summary</td>
+                        <td>&lt;summary&gt;content&lt;/summary&gt;</td>
+                        <td>Defines a visible heading for a &lt;details&gt; element. When the summary is clicked, the details are shown or hidden.</td>
+                    </tr>
+                    <tr>
+                        <td>output</td>
+                        <td>&lt;output&gt;content&lt;/output&gt;</td>
+                        <td>Represents the result of a calculation or user action. Often used in conjunction with form elements.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="CSS">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="3">CSS Cheat Sheet</th>
+                    </tr>
+                    <tr>
+                        <th>Property</th>
+                        <th>Usage</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>color</td>
+                        <td>color: value;</td>
+                        <td>Sets the color of the text. The value can be a color name, hex code, rgb, rgba, hsl, or hsla.</td>
+                    </tr>
+                    <tr>
+                        <td>background-color</td>
+                        <td>background-color: value;</td>
+                        <td>Sets the background color of an element. The value can be a color name, hex code, rgb, rgba, hsl, or hsla.</td>
+                    </tr>
+                    <tr>
+                        <td>font-size</td>
+                        <td>font-size: value;</td>
+                        <td>Sets the size of the text. The value can be in pixels (px), em, rem, percentages, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>margin</td>
+                        <td>margin: value;</td>
+                        <td>Sets the outer spacing of an element. The value can be in pixels (px), em, rem, percentages, or auto.</td>
+                    </tr>
+                    <tr>
+                        <td>padding</td>
+                        <td>padding: value;</td>
+                        <td>Sets the inner spacing of an element. The value can be in pixels (px), em, rem, or percentages.</td>
+                    </tr>
+                    <tr>
+                        <td>border</td>
+                        <td>border: width style color;</td>
+                        <td>Sets the border of an element. The width is the thickness, the style can be solid, dotted, dashed, etc., and the color can be a color name, hex code, rgb, rgba, hsl, or hsla.</td>
+                    </tr>
+                    <tr>
+                        <td>width</td>
+                        <td>width: value;</td>
+                        <td>Sets the width of an element. The value can be in pixels (px), em, rem, percentages, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>height</td>
+                        <td>height: value;</td>
+                        <td>Sets the height of an element. The value can be in pixels (px), em, rem, percentages, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>display</td>
+                        <td>display: value;</td>
+                        <td>Specifies how an element is displayed. The value can be block, inline, inline-block, flex, grid, none, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>position</td>
+                        <td>position: value;</td>
+                        <td>Specifies the positioning method. The value can be static, relative, absolute, fixed, or sticky.</td>
+                    </tr>
+                    <tr>
+                        <td>top</td>
+                        <td>top: value;</td>
+                        <td>Specifies the top position of an element. Used with position: relative, absolute, fixed, or sticky. The value can be in pixels (px), em, rem, percentages, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>left</td>
+                        <td>left: value;</td>
+                        <td>Specifies the left position of an element. Used with position: relative, absolute, fixed, or sticky. The value can be in pixels (px), em, rem, percentages, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>right</td>
+                        <td>right: value;</td>
+                        <td>Specifies the right position of an element. Used with position: relative, absolute, fixed, or sticky. The value can be in pixels (px), em, rem, percentages, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>bottom</td>
+                        <td>bottom: value;</td>
+                        <td>Specifies the bottom position of an element. Used with position: relative, absolute, fixed, or sticky. The value can be in pixels (px), em, rem, percentages, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>flex</td>
+                        <td>flex: value;</td>
+                        <td>A shorthand property for flex-grow, flex-shrink, and flex-basis. It sets how a flex item will grow or shrink to fit the space.</td>
+                    </tr>
+                    <tr>
+                        <td>grid-template-columns</td>
+                        <td>grid-template-columns: value;</td>
+                        <td>Specifies the columns of a grid container. The value can be a space-separated list of values, each representing the size of a column.</td>
+                    </tr>
+                    <tr>
+                        <td>align-items</td>
+                        <td>align-items: value;</td>
+                        <td>Specifies the alignment of items inside a flex or grid container along the cross axis. The value can be flex-start, flex-end, center, baseline, or stretch.</td>
+                    </tr>
+                    <tr>
+                        <td>justify-content</td>
+                        <td>justify-content: value;</td>
+                        <td>Specifies the alignment of items inside a flex or grid container along the main axis. The value can be flex-start, flex-end, center, space-between, space-around, or space-evenly.</td>
+                    </tr>
+                    <tr>
+                        <td>text-align</td>
+                        <td>text-align: value;</td>
+                        <td>Sets the horizontal alignment of text. The value can be left, right, center, or justify.</td>
+                    </tr>
+                    <tr>
+                        <td>font-family</td>
+                        <td>font-family: value;</td>
+                        <td>Specifies the font family for text. The value can be a specific font name, a generic family (like serif, sans-serif, etc.), or a comma-separated list of font names.</td>
+                    </tr>
+                    <tr>
+                        <td>line-height</td>
+                        <td>line-height: value;</td>
+                        <td>Sets the height of a line of text. The value can be a number, a length (px, em, rem, etc.), or a percentage.</td>
+                    </tr>
+                    <tr>
+                        <td>opacity</td>
+                        <td>opacity: value;</td>
+                        <td>Sets the opacity level of an element. The value can be a number between 0 (completely transparent) and 1 (completely opaque).</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="JS">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="3">JavaScript Cheat Sheet</th>
+                    </tr>
+                    <tr>
+                        <th>Method/Function</th>
+                        <th>Usage</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>alert()</td>
+                        <td>alert("message");</td>
+                        <td>Displays an alert box with a specified message and an OK button.</td>
+                    </tr>
+                    <tr>
+                        <td>console.log()</td>
+                        <td>console.log("message");</td>
+                        <td>Prints a message to the browser console for debugging purposes.</td>
+                    </tr>
+                    <tr>
+                        <td>document.getElementById()</td>
+                        <td>document.getElementById("id");</td>
+                        <td>Returns the element that has the ID attribute with the specified value.</td>
+                    </tr>
+                    <tr>
+                        <td>addEventListener()</td>
+                        <td>element.addEventListener("event", function);</td>
+                        <td>Attaches an event handler to the specified element.</td>
+                    </tr>
+                    <tr>
+                        <td>querySelector()</td>
+                        <td>document.querySelector("selector");</td>
+                        <td>Returns the first element that matches a specified CSS selector(s) in the document.</td>
+                    </tr>
+                    <tr>
+                        <td>setTimeout()</td>
+                        <td>setTimeout(function, milliseconds);</td>
+                        <td>Calls a function or evaluates an expression after a specified number of milliseconds.</td>
+                    </tr>
+                    <tr>
+                        <td>setInterval()</td>
+                        <td>setInterval(function, milliseconds);</td>
+                        <td>Calls a function or evaluates an expression at specified intervals (in milliseconds).</td>
+                    </tr>
+                    <tr>
+                        <td>JSON.parse()</td>
+                        <td>JSON.parse("jsonString");</td>
+                        <td>Parses a JSON string and returns the JavaScript object.</td>
+                    </tr>
+                    <tr>
+                        <td>JSON.stringify()</td>
+                        <td>JSON.stringify(object);</td>
+                        <td>Converts a JavaScript object to a JSON string.</td>
+                    </tr>
+                    <tr>
+                        <td>map()</td>
+                        <td>array.map(function);</td>
+                        <td>Creates a new array with the results of calling a provided function on every element in the calling array.</td>
+                    </tr>
+                    <tr>
+                        <td>filter()</td>
+                        <td>array.filter(function);</td>
+                        <td>Creates a new array with all elements that pass the test implemented by the provided function.</td>
+                    </tr>
+                    <tr>
+                        <td>reduce()</td>
+                        <td>array.reduce(function, initialValue);</td>
+                        <td>Executes a reducer function on each element of the array, resulting in a single output value.</td>
+                    </tr>
+                    <tr>
+                        <td>forEach()</td>
+                        <td>array.forEach(function);</td>
+                        <td>Executes a provided function once for each array element.</td>
+                    </tr>
+                    <tr>
+                        <td>push()</td>
+                        <td>array.push(element);</td>
+                        <td>Adds one or more elements to the end of an array and returns the new length of the array.</td>
+                    </tr>
+                    <tr>
+                        <td>pop()</td>
+                        <td>array.pop();</td>
+                        <td>Removes the last element from an array and returns that element.</td>
+                    </tr>
+                    <tr>
+                        <td>shift()</td>
+                        <td>array.shift();</td>
+                        <td>Removes the first element from an array and returns that element.</td>
+                    </tr>
+                    <tr>
+                        <td>unshift()</td>
+                        <td>array.unshift(element);</td>
+                        <td>Adds one or more elements to the beginning of an array and returns the new length of the array.</td>
+                    </tr>
+                    <tr>
+                        <td>find()</td>
+                        <td>array.find(function);</td>
+                        <td>Returns the value of the first element in the array that satisfies the provided testing function.</td>
+                    </tr>
+                    <tr>
+                        <td>includes()</td>
+                        <td>array.includes(element);</td>
+                        <td>Determines whether an array includes a certain value among its entries, returning true or false as appropriate.</td>
+                    </tr>
+                    <tr>
+                        <td>slice()</td>
+                        <td>array.slice(start, end);</td>
+                        <td>Returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included).</td>
+                    </tr>
+                    <tr>
+                        <td>splice()</td>
+                        <td>array.splice(start, deleteCount, item1, item2, ...);</td>
+                        <td>Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.</td>
+                    </tr>
+                    <tr>
+                        <td>sort()</td>
+                        <td>array.sort(function);</td>
+                        <td>Sorts the elements of an array in place and returns the array. The default sort order is according to string Unicode code points.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li>Created by Mehmet Ali ÖNER</li>
+            <li>Contact: mehmtali2200@gmail.com</li>
+        </ul>
+    </footer>
+</body>
+</html>
